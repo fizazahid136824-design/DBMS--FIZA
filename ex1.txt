@@ -1,0 +1,30 @@
+SQL> DESC DEPOSIT
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ ACTNO                                              VARCHAR2(5)
+ CNAME                                              VARCHAR2(15)
+ BNAME                                              VARCHAR2(15)
+ AMOUNT                                             NUMBER(10,2)
+ ADATE                                              DATE
+
+SQL> DESC BRANCH
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ BNAME                                              VARCHAR2(15)
+ CITY                                               VARCHAR2(15)
+
+SQL> DESC CUSTOMERS
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ CNAME                                              VARCHAR2(15)
+ CITY                                               VARCHAR2(15)
+
+SQL> DESC BORROW
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ LOANNO                                             VARCHAR2(5)
+ CNAME                                              VARCHAR2(15)
+ BNAME                                              VARCHAR2(15)
+ AMOUNT                                             NUMBER(9,2)
+
+SQL> SPOOL OFF;
